@@ -1,6 +1,3 @@
-Poix Raphaël
-Benlarbi Samy
-
 Comment compiler le projet ?
 ---------------------------
 
