@@ -30,10 +30,13 @@ Une fois la compilation terminée, un fichier "jeu.native" peut alors être lanc
 
 Vous pourrez alors choisir une distance selon l'image ci dessous (en cliquant dessus), et commencer à jouer :
 
-![test](Capture_Selec.PNG)
+![Selection](Capture_Selec.PNG)
 
 Le bouton "next" permet de passer au Voronoi suivant, le bouton "quit" termine le programme, le bouton "reset" remet le voronoi actuel au point de départ.
 Pour le bouton "solve", il ne résout pas directement le voronoi : il affiche simplement une solution le temps d'un clic (une fois le bouton de la souris relevé, notre voronoi réaparait). Si rien ne s'affiche, c'est qu'il n'y a pas de solution possible depuis là où vous en êtes dans la partie.
+
+Vous pouvez ci dessous voir la fenêtre de jeu complète :
+![Game](Capture_game.PNG)
 
 Comment ajouter des voronois au jeu ?
 ------------------------------------
