@@ -7,7 +7,7 @@ Vous avez à votre disposition, deux manières de compiler le projet en un exéc
 
 2. Sinon un makefile, fourni avec les fichiers sources, vous permet de simplifier la compilation. Tapez "make" dans le terminal.
 
-Nous avons tenté de construire un make qui crée un exécutable, sans passer par ocamlbuild.
+Une tentative de construire un make qui crée un exécutable, sans passer par ocamlbuild, a été tenté.
 Cependant, une erreur de ciblage apparaissait lors de l'exécution de la dernière règle.
 Si vous voulez tester : "make other" dans le terminal.
 
