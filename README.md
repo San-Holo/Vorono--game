@@ -1,44 +1,37 @@
-Comment compiler le projet ?
+How to compile ?
 ---------------------------
 
-Vous avez à votre disposition, deux manières de compiler le projet en un exécutable:
+There's two ways of compiling the project into one executable/
 
-1. Tapez directement "ocamlbuild -pkg graphics jeu.native" dans le terminal.
+1. Directly write "ocamlbuild -pkg graphics jeu.native" in a terminal.
 
-2. Sinon un makefile, fourni avec les fichiers sources, vous permet de simplifier la compilation. Tapez "make" dans le terminal.
+2. A given makefile allows it by writing "make" in a terminal.
 
-Une tentative de construire un make qui crée un exécutable, sans passer par ocamlbuild, a été tenté.
-Cependant, une erreur de ciblage apparaissait lors de l'exécution de la dernière règle.
-Si vous voulez tester : "make other" dans le terminal.
+An attempt of building a makefile which would have created an executable without ocamlbuild was made. However, a targetting error from the last rule appeared when the last rule was executed. To check this behaviour: "make other" in a terminal.
 
-
-Comment nettoyer le répertoire ?
+How to clean working directory ?
 -------------------------------
 
-Pour supprimer les .cmo .cmi :
- ==> taper "make clean" dans le terminal.
+To delete .cmo and .cmi files => "make clean" in a terminal.
 
-Pour effacer tous les exécutables :
- ==> taper "make mrproper" dans le terminal.
+To delete all executables => "make mrproper" in the terminal.
 
-
-Comment utiliser l'exécutable produit ?
+How to use the produced executable ?
 --------------------------------------
 
-Une fois la compilation terminée, un fichier "jeu.native" peut alors être lancé avec la commande :
-"./jeu.native".
-
-Vous pourrez alors choisir une distance selon l'image ci dessous (en cliquant dessus), et commencer à jouer :
+Once compilation's done, the ".native" file can be executed => "./jeu.native"
+You will then be able to choose a distance (as shown in the image below) and start to play !
 
 ![Selection](Capture_Selec.PNG)
 
-Le bouton "next" permet de passer au Voronoi suivant, le bouton "quit" termine le programme, le bouton "reset" remet le voronoi actuel au point de départ.
-Pour le bouton "solve", il ne résout pas directement le voronoi : il affiche simplement une solution le temps d'un clic (une fois le bouton de la souris relevé, notre voronoi réaparait). Si rien ne s'affiche, c'est qu'il n'y a pas de solution possible depuis là où vous en êtes dans la partie.
+The "next" button allows to go to the next Voronoi, "reset" permits to clean the actual Voronoi and "quit" pushes you in another dimension called "reality" (WOW). You can see below what the game looks like:
 
 Vous pouvez ci dessous voir la fenêtre de jeu complète :
 ![Game](Capture_game.PNG)
 
+How to add new Voronois ?
+
 Comment ajouter des voronois au jeu ?
 ------------------------------------
 
-Vous pouvez les ajouter directement dans examples.ml, ainsi que dans la liste en fin de ce fichier.
+You can add them either directly in "examples.ml", or in the list at the end of the former.
