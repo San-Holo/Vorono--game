@@ -30,8 +30,6 @@ Vous pouvez ci dessous voir la fenêtre de jeu complète :
 ![Game](Capture_game.PNG)
 
 How to add new Voronois ?
-
-Comment ajouter des voronois au jeu ?
-------------------------------------
+-------------------------
 
 You can add them either directly in "examples.ml", or in the list at the end of the former.
